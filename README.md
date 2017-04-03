@@ -27,9 +27,11 @@ where ```width bdepth nblock``` implement the ```d k n ``` in the Table 1 of the
 
 If you use our code in your research and would like to cite our paper:
 
- @article{zhang2017bitnet,
-          author = {Yan Zhang and Mete Ozay and Shuohao Li and Takayuki Okatani},
-          title = {Truncating Wide Networks using Binary Tree Architectures},
-          journal = {arXiv preprint arXiv:--},
-          year = {2017}
-          }
+	@article{zhang2017bitnet,
+	  title={Truncating Wide Networks using Binary Tree Architectures},
+	  author={Yan Zhang and Mete Ozay and Shuohao Li and Takayuki Okatani},
+	  journal={arXiv preprint arXiv:--},
+	  year={2017}
+	}
+ 
+
