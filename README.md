@@ -22,6 +22,12 @@ To train on cifar,
 where ```width bdepth nblock``` implement the ```d k n ``` in the Table 1 of the paper.
  For other traing options e.g. batchSize and nGPU, one can check [fb.resnet.torch](https://github.com/facebook/fb.resnet.torch).
 
+## Pretrained Models
+Pretrained bitnet models for ImageNet are available for download (Google Drive): 
+[bitnet-26](https://drive.google.com/file/d/0B49TImF4hCTfdkJ0aUZwNnNiRTg/view?usp=sharing),
+[bitnet-34](https://drive.google.com/file/d/0B49TImF4hCTfemFCSXBDM0hvdjA/view?usp=sharing)
+
+How to use pretrained models? See instructions [here](https://github.com/facebook/fb.resnet.torch/tree/master/pretrained).
 
 ## Citation
 
@@ -34,4 +40,5 @@ If you use our code in your research and would like to cite our paper:
 	  year={2017}
 	}
  
+ If you have any further questions or suggestion, feel free to contact us at ```zhang at vision.is.tohoku.ac.jp```
 
