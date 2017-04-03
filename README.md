@@ -13,7 +13,7 @@ To run our code,
 
 To train on ImageNet with bitnet-26 model,
 
-```th main.lua -dataset imagenet -netType bitnet -depth 26 -nEpochs 90 ```.
+```th main.lua -dataset imagenet -netType bitnet -depth 26 -nEpochs 90 -data /path/to/ILSVRC2012/```.
  
 To train on cifar,
 
@@ -21,3 +21,15 @@ To train on cifar,
 
 where ```width bdepth nblock``` implement the ```d k n ``` in the Table 1 of the paper.
  For other traing options e.g. batchSize and nGPU, one can check [fb.resnet.torch](https://github.com/facebook/fb.resnet.torch).
+
+
+## Citation
+
+If you use our code in your research and would like to cite our paper:
+
+ @article{zhang2017bitnet,
+          author = {Yan Zhang and Mete Ozay and Shuohao Li and Takayuki Okatani},
+          title = {Truncating Wide Networks using Binary Tree Architectures},
+          journal = {arXiv preprint arXiv:--},
+          year = {2017}
+          }
