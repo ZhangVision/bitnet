@@ -1,6 +1,6 @@
 # Convolutional Networks with Binary Tree Architectures
 
-This repository is the torch implementation for the paper Truncating Wide Networks using Binary Tree Architectures.
+This repository is the torch implementation for the paper [Truncating Wide Networks using Binary Tree Architectures](https://arxiv.org/pdf/1704.00509.pdf).
 
 ## Installation and Usage
 
@@ -36,7 +36,7 @@ If you use our code in your research and would like to cite our paper:
 	@article{zhang2017bitnet,
 	  title={Truncating Wide Networks using Binary Tree Architectures},
 	  author={Yan Zhang and Mete Ozay and Shuohao Li and Takayuki Okatani},
-	  journal={arXiv preprint arXiv:--},
+	  journal={arXiv preprint arXiv:1704.00509},
 	  year={2017}
 	}
  
